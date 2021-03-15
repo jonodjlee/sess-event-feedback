@@ -154,9 +154,9 @@
                     console.log("Formdata, serialized:", formDataSerialized);
 
                     $(function() {
-                        var jqxhr = $.post("https://api.formcake.com/api/form/3cd20ddb-5aa9-4fba-96c2-7d697f84cc33/submission", $("#form").serialize(), function(data) {
+                        var jqxhr = $.post("https://api.formcake.com/api/form/ef93d878-093d-45b7-abbc-e883f6c25617/submission", $("#form").serialize(), function(data) {
                             console.log("Success! Data: " + formDataSerialized);
-                            $(location).attr('href', 'https://sess-feedback.netlify.app/success');
+                            $(location).attr('href', 'https://sess-event-feedback.netlify.app/success');
                         });
                     })
 
