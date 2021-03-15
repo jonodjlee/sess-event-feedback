@@ -84,7 +84,25 @@
             <label for="poorexpcause6">Other</label>
         </fieldset>
 
-        <input  type="text" name="complaintdetail" id="complaintdetail" cf-questions="Oh no! What happened?" cf-conditional-satisfaction="5||6||7||8||9||ten" />
+        <fieldset cf-questions="(please select all that apply)" cf-error="Please select at least one option.">
+            <input required type="checkbox" name="goodexpcause" id="goodexpcause1" value="planning " cf-conditional-satisfaction="5||6||7||8||9||ten">
+            <label for="goodexpcause1">Planning</label>
+
+            <input required type="checkbox" name="goodexpcause" id="goodexpcause2" value="execution " cf-conditional-satisfaction="5||6||7||8||9||ten">
+            <label for="goodexpcause2">Execution</label>
+
+            <input required type="checkbox" name="goodexpcause" id="goodexpcause3" value="teamwork " cf-conditional-satisfaction="5||6||7||8||9||ten">
+            <label for="goodexpcause3">Teamwork</label>
+
+            <input required type="checkbox" name="goodexpcause" id="goodexpcause4" value="communication " cf-conditional-satisfaction="5||6||7||8||9||ten">
+            <label for="goodexpcause4">Communication</label>
+            
+            <input required type="checkbox" name="goodexpcause" id="goodexpcause5" value="time management " cf-conditional-satisfaction="5||6||7||8||9||ten">
+            <label for="goodexpcause5">Time Management</label>
+            
+            <input required type="checkbox" name="goodexpcause" id="goodexpcause6" value="other " cf-conditional-satisfaction="5||6||7||8||9||ten">
+            <label for="goodexpcause6">Other</label>
+        </fieldset>
         
         <input  type="text" name="complimentideadetail" id="complimentideadetail" cf-questions="Oooh! Tell us about it!" cf-conditional-fbnature="compliment||idea" />
                 
