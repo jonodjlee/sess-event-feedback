@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'gilroyblack';
+    src: url('../fonts/Gilroy-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'gilroyblackitalic';
+    src: url('../fonts/Gilroy-BlackItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'gilroybold';
+    src: url('../fonts/Gilroy-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'gilroybolditalic';
+    src: url('../fonts/Gilroy-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'lexendexa';
+    src: url('../fonts/LexendExa-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'karlabold';
+    src: url('../fonts/Karla-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'karlabolditalic';
+    src: url('../fonts/Karla-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'karlaitalic';
+    src: url('../fonts/Karla-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'karlareg';
+    src: url('../fonts/Karla-Regular.ttf') format('truetype');
+}

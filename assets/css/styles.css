@@ -1,0 +1,103 @@
+::selection {
+    background-color: #5600ff;
+}
+
+html,
+body {
+    font-size: 12pt;
+    color: #ddd;
+}
+
+.boldbtn {
+    background: #fd5b78;
+    border-radius: 50px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.boldbtn:hover {
+    opacity: 0.7;
+    text-decoration: none;
+    color: white;
+}
+
+.border-t {
+    border-top: 1px solid #888;
+}
+
+.center {
+    text-align: center;
+}
+
+.flex-1 {
+    flex: 1 1 0%;
+}
+
+.h-full {
+    height: 100%;
+}
+
+.white {
+    color: #fff;
+}
+
+.grey {
+    color: #888;
+}
+
+.green {
+    color: #00b86b;
+}
+
+.textsm {
+    font-size: 10px;
+}
+
+.textnomargin {
+    margin: 0 !important;
+}
+
+.textgilroyblack {
+    font-family: "gilroyblack", "Helvetica Neue", "Neue Helvetica W01", Helvetica, Arial, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    ;
+    font-weight: normal;
+}
+
+.textgilroyblackitalic {
+    font-family: "gilroyblackitalic", "Helvetica Neue", "Neue Helvetica W01", Helvetica, Arial, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    ;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.textgilroybold {
+    font-family: "gilroybold", "Helvetica Neue", "Neue Helvetica W01", Helvetica, Arial, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    ;
+    font-weight: normal;
+}
+
+.textgilroybolditalic {
+    font-family: "gilroybolditalic", "Helvetica Neue", "Neue Helvetica W01", Helvetica, Arial, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    ;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.textlexend {
+    font-family: "lexendexa", "Helvetica Neue", "Neue Helvetica W01", Helvetica, Arial, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    ;
+    font-weight: normal;
+}
+
+.textkarla {
+    font-family: "karlareg", "Helvetica Neue", "Neue Helvetica W01", Helvetica, Arial, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    ;
+    font-weight: normal;
+}
+
+.textkarlaitalic {
+    font-family: "karlaitalic", "Helvetica Neue", "Neue Helvetica W01", Helvetica, Arial, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    ;
+    font-style: italic;
+}
