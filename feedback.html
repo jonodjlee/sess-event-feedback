@@ -32,7 +32,27 @@
 
         <cf-robot-message cf-questions="Hi there! &#x1F44B;&amp;&amp;Thanks for attending our event!"></cf-robot-message>
         
-        <fieldset cf-questions="How satisfied are you with the Industry Night event?" cf-error="Please choose an option.">
+        <fieldset cf-questions="How find out about our event?" cf-error="Please choose an option.">
+            <input required type="radio" name="discovery" id="discovery1" value="fb">
+            <label for="discovery1">Facebook</label>
+
+            <input required type="radio" name="discovery" id="discovery2" value="ig">
+            <label for="discovery2">Instagram</label>
+
+            <input required type="radio" name="discovery" id="discovery3" value="in">
+            <label for="discovery3">LinkedIn</label>
+
+            <input required type="radio" name="discovery" id="discovery4" value="fr">
+            <label for="discovery4">Friends</label>
+            
+            <input required type="radio" name="discovery" id="discovery5" value="fam">
+            <label for="discovery5">Family</label>
+            
+            <input required type="radio" name="discovery" id="discovery6" value="other">
+            <label for="discovery6">Other</label>
+        </fieldset>
+        
+        <fieldset cf-questions="How satisfied are you with our event?" cf-error="Please choose an option.">
             <input required type="radio" name="satisfaction" id="satisfaction1" value="1">
             <label for="satisfaction1">1</label>
 
@@ -104,11 +124,11 @@
             <label for="goodexpcause6">Other</label>
         </fieldset>
         
-        <input  required type="text" name="expdetail" id="expdetail" cf-questions="Could you please explain your answer(s) in further detail? " />
+        <input type="text" name="expdetail" id="expdetail" cf-questions="Could you please explain your answer(s) in further detail? " />
                 
-        <input  required type="text" name="futurediff" id="futurediff" cf-questions="Ok... How could we do things differently in the future?" />
+        <input type="text" name="futurediff" id="futurediff" cf-questions="Ok... How could we do things differently in the future?" />
         
-        <input  required type="text" name="otherfb" id="otherfb" cf-questions="Last one... do you have any other feedback to share with us ?" />
+        <input type="text" name="otherfb" id="otherfb" cf-questions="Last one... do you have any other feedback to share with us ?" />
 2
         <fieldset cf-questions="Perfect! All done...&amp;&amp;Thank you for your feedback!">
             <input type="text" name="_honey" style="display: none !important">
